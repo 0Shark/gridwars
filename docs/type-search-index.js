@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"cern.ais.gridwars.api","l":"Coordinates"},{"p":"cern.ais.gridwars.api.command","l":"MovementCommand.Direction"},{"p":"cern.ais.gridwars.api.command","l":"MovementCommand"},{"p":"cern.ais.gridwars.api.bot","l":"PlayerBot"},{"p":"cern.ais.gridwars.api","l":"UniverseView"}]

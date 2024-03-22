@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"cern.ais.gridwars.api"},{"l":"cern.ais.gridwars.api.bot"},{"l":"cern.ais.gridwars.api.command"}]

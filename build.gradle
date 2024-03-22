@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+repositories {
+    addAll(buildscript.repositories)
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "gridwars.starter.EmulatorRunner"
+
+jar {
+    from sourceSets.main.java
+
+    archiveName = "gridwars-bot.jar"
+
+    manifest {
+        attributes(
+            'Bot-Class-Name': 'gridwars.starter.Bellator_Skanderbot',
+        )
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'lib')
+}
